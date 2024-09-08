@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 50px;
+    background-color: #1E22A9;
+}
+    header img {
+        width: 120px;
+        padding: 15px 60px;
+    }
+    .searchbar {
+        display: inline-block;
+        vertical-align: top;
+        position: absolute;
+        top: 10px;
+        left: 300px;
+    }
+    .searchbar input {
+        padding: 5px;
+        width: 500px;
+    }
+    .searchbar button {
+        background-color: #006DE1;
+        color: white;
+        border: none;
+        padding: 7px;
+        cursor: pointer;
+        position: absolute;
+        right: 1px;
+    }
+nav {
+    margin-left: 70px;
+    margin-top: 5px;
+}
+    .nav_link, .nav_link_end {
+        text-decoration: none;
+        font-family: 'poppins';
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #A4A8D3;
+        padding: 0px 20px;
+    }
+    .nav_link {
+        border-right: 1px solid #A4A8D3;
+    }
+    .nav_link_end {
+        border: none;
+    }
+
+section {
+    display: block;
+}
+.banner_left {
+    width: 780px;
+    margin-top: 20px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.banner_group_right {
+    width: 300px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+    #banner_right1, #banner_right2{
+        width: 390px;
+        display: block;
+    }
+.categories {
+    margin: 0px 200px;
+    position: relative;
+    top: 50px;
+}
+    .icon_category {
+        margin: 10px;
+        margin: 0 auto;
+    }
+    a .text {
+        text-align: center;
+        display: block;
+        width: 94px;
+    }
+    a {
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-size: 10px;
+        color: black;
+        display: inline-block;
+        padding: 0px 10px;
+    }
+article {
+    background-color: #1D86FF;
+    height: 370px;
+    margin-top: 100px;
+}
+    article #luck {
+        margin: 0px 185px;
+        height: 75px;
+    }
+    .products {
+        margin: 10px 180px;
+    }
+.sponsors {
+    background-color: #E0F6FF;
+    height: 160px;
+}  
+    .sponsors p {
+        font-family: 'Poppins';
+        padding: 10px 170px;
+        font-weight: bold;
+    }
+    .brands{
+        margin: 15px 170px;
+    }
+footer {
+    background-color: #1E22AA;
+    padding: 20px 300px;
+}
+    footer a{
+        color: white;
+    }
